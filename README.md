@@ -32,7 +32,7 @@ individual.
     * Use `otu_ids` as the labels for the bar chart.
     * Use `otu_labels` as the hovertext for the chart.
 
-        ![alt text](Images\image.png)
+        ![alt text](image.png)
 
 3. Create a bubble chart that displays each sample.
     * Use `otu_ids` for the x values.
@@ -41,18 +41,18 @@ individual.
     * Use `otu_ids` for the marker colors.
     * Use `otu_labels` for the text values.
 
-        ![alt text](Images\image-1.png)
+        ![alt text](image-1.png)
 
 4. Display the sample's metadata, i.e., an individual's demographic information.
     * Loop through each key-value pair from the metadata JSON object and create a text string.
     * Append an html tag with that text to the `#sample-metadata` panel.
 
-        ![alt text](Images\image-2.png)
+        ![alt text](image-2.png)
 
 5. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout \
 that you would like for your dashboard. An example dashboard is shown as follows:
 
-    ![alt text](Images\image-3.png)
+    ![alt text](image-3.png)
 
 6. Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your \
 deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough \
